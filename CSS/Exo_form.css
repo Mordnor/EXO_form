@@ -1,9 +1,29 @@
 fieldset {
     border: none;
     position: relative;
+    height: 115px;
+
 }
 
 #mail {
     position: absolute;
     bottom: 0px;
+    left: 0px;
+
+
+}
+label[for="mail"]
+{
+    position: absolute;
+    bottom: 33px;
+    left: 2px;
+
+}
+#first_name, #last_name
+{
+    position: absolute;
+    bottom: 45px;
+    left: 2px;
+    
+
 }
