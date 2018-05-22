@@ -1,0 +1,9 @@
+fieldset {
+    border: none;
+    position: relative;
+}
+
+#mail {
+    position: absolute;
+    bottom: 0px;
+}
