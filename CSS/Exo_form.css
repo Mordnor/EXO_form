@@ -5,6 +5,11 @@ input[id*="name"]{
     margin-bottom: 10px;
 }
 
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
 input[id*="mail"]{
     width: 30.5em;
     height: 2em;
@@ -22,9 +27,9 @@ select {
     margin-bottom: 10px;
 }
 
-legend{
-    margin-top: 10px;
-    font-weight: bold;
+form {
+    position: relative;
+    height: 20%;
 }
 
 textarea {
@@ -32,14 +37,16 @@ textarea {
     width: 30.5em;
 }
 
-.send{
-    position: absolute;
+#send{
+
     background-color: blue;
     color: white;
     width: 5em;
     height: 3em;
     border: none;
     border-radius: 2%;
+    margin-top: 10px;
+
 }
 
 sup {
