@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="CSS/Exo_form.css">
-        <title>EXO FORM</title>
-    </head>
-    <body>
-        <form>
 
-        <fieldset>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/Exo_form.css">
+    <title>EXO FORM</title>
+</head>
+
+<body>
+    <form>
+        <legend>
+            Full Name <sup>*</sup>
+        </legend>
+        <input type="text" id="first_name" placeholder="First" />
+        <input type="text" id="last_name" placeholder="Last" />
+        <legend>
+            Email <sup>*</sup>
+        </legend>
+        <input type="email" id="mail" name="mail" />
 
 
-            <label for="full_name">Full Name</label>
-            <input type="text" id="first_name" placeholder="First"/>
-            <input type="text" id="last_name" placeholder="Last"/>
-
-            <label for="mail">Email</label>
-            <input type="email" id="mail" name="mail" />
-
-        </fieldset>
-
-            <select>
+        <legend>
+            Subjects <sup>*</sup>
+        </legend>
+        <select>
                 <option>
-
+                    Advertise
                 </option>
                 <option>
                     option 1
@@ -34,10 +37,14 @@
                     option3
                 </option>
             </select>
+        <legend>
+            Your Message <sup>*</sup>
+        </legend>
+        <textarea id="message" name="message"></textarea>
 
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message"></textarea>
+        <input type="submit" class="send"/>
 
-        </form>
-    </body>
+    </form>
+</body>
+
 </html>

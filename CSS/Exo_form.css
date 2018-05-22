@@ -1,29 +1,47 @@
-fieldset {
+input[id*="name"]{
+
+    width: 15em;
+    height: 2em;
+    margin-bottom: 10px;
+}
+
+input[id*="mail"]{
+    width: 30.5em;
+    height: 2em;
+
+}
+
+input, textarea {
+    margin-top: 5px;
+}
+
+select {
+    margin-top: 2px;
+    width: 30.5em;
+    height: 2em;
+    margin-bottom: 10px;
+}
+
+legend{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    height: 7em;
+    width: 30.5em;
+}
+
+.send{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    width: 5em;
+    height: 3em;
     border: none;
-    position: relative;
-    height: 115px;
-
+    border-radius: 2%;
 }
 
-#mail {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-
-
-}
-label[for="mail"]
-{
-    position: absolute;
-    bottom: 33px;
-    left: 2px;
-
-}
-#first_name, #last_name
-{
-    position: absolute;
-    bottom: 45px;
-    left: 2px;
-    
-
+sup {
+    color: red;
 }
