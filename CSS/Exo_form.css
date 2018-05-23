@@ -78,7 +78,7 @@ input[id*="2"] {
 }
 
 
-fieldset {
+.field2 {
     border: none;
 }
 
@@ -104,3 +104,16 @@ fieldset {
 }
 
 /*----------------------------FORM 3 ----------------------------------------*/
+.form3 {
+    text-align: left;
+    margin: 0 60% 0 0;
+}
+
+.label3 {
+    display: inline-block;
+    width: 29%;
+    text-align: left;
+    margin-left: 2%;
+    padding-top: 2%;
+
+}
