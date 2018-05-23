@@ -58,23 +58,36 @@ sup {
 
 /*----------------------------FORM 2 ----------------------------------------*/
 .form2{
-    margin: 0 20%;
+
+    text-align: left;
 }
 
 .label2{
     display: inline-block;
+    width: 5%;
+    margin-right: 6%;
 
 
 
 }
 
 input[id*="2"] {
-
+    width: 5%;
 }
 
 fieldset{
     border: none;
-    
+
+
+}
+
+.tel2 {
+    width: 5%;
+    height: 10%;
+}
+
+.mail2 {
+    padding-left: 15%;
 }
 
 
